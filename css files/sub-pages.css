@@ -100,6 +100,10 @@
   align-items: center;
 }
 
+.title {
+  width: 30rem;
+  padding: 1.8rem;
+}
 @media only screen and (max-width: 1250px) {
   .container {
     padding-left: 0;
@@ -160,6 +164,11 @@
   .col1 h3 {
     font-size: 15px;
   }
+
+  .title {
+    width: rem;
+    padding-top: 10rem;
+  }
 }
 
 @media only screen and (max-width: 560px) {
@@ -212,6 +221,10 @@
   }
   .col-1::after {
     display: none;
+  }
+  .title {
+    width: 10rem;
+    padding-top: 10rem;
   }
 }
 
