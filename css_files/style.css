@@ -27,12 +27,20 @@
 
 /* Variablen für die Farben */
 :root{
+  /* Farben für den normalen Modus */
   --backgroundlight: #c2d9e4;
   --textlight: #7ca8ee;
   --midcolor: #679db3;
   --darkcolorsmooth: #4c738e;
   --darkcolor: #414185;
   --strongdarkcolor: #171754;
+  /* Farben für den Darkmode */
+  --dark: #121111;
+  --darkgrey: #606060;
+  --grey: #A0A0A0;
+
+
+
 }
 
 header{
@@ -218,6 +226,7 @@ footer{
   font-size: 13px;
   color: #aaa;
 }
+
 
 @media screen and (min-width: 795px)
 {
