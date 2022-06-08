@@ -117,8 +117,9 @@ nav ul li ul{
   display: none;
   position: absolute;
   background-color: var(--darkcolorsmooth);
-  /* padding: 7px;
-  border-radius: 20px; */
+  /* padding: 7px; */
+  border-bottom-left-radius: 20px; 
+  border-bottom-right-radius: 20px;
 }
 nav ul li:hover ul {
   display: block;
@@ -129,7 +130,7 @@ nav ul li ul li a{
   border-radius: 10px;
 }
 nav ul li ul li a:hover{
-  background-color: #296b6b;
+  background-color: var(--textlight);
 }
 
 main
