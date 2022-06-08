@@ -37,7 +37,7 @@
     /* Farben für den Darkmode */
     --dark: #121111;
     --darkgrey: #606060;
-    --grey: #A0A0A0;
+    --purple: #1d1737;
   
   
   
@@ -45,7 +45,7 @@
   
   header{
     grid-area: header;
-    background-color: var(--darkcolorsmooth);
+    background-color: var(--purple);
     display: flex;
     justify-content: center;     
     align-items: center;
@@ -54,7 +54,7 @@
   .headerLogo
   {
     font-size: 30px;
-    color: var(--backgroundlight);
+    color: var(--midcolor);
     text-shadow: 10px 5px 5px black;
     padding: 20px;
     border-radius: 10px;
@@ -63,7 +63,7 @@
   
   nav{
     grid-area: nav;
-    background-color: var(--darkcolorsmooth);
+    background-color: var(--purple);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -116,7 +116,7 @@
   nav ul li ul{
     display: none;
     position: absolute;
-    background-color: var(--darkcolorsmooth);
+    background-color: var(--purple);
     /* padding: 7px; */
     border-bottom-left-radius: 20px; 
     border-bottom-right-radius: 20px;
@@ -136,7 +136,7 @@
   main
   {
     grid-area: main;
-    background-color: var(--backgroundlight);
+    background-color: var(--darkgrey);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -171,13 +171,13 @@
   
   footer{
     grid-area: footer;
-    background-color: var(--darkcolorsmooth);
+    background-color: var(--purple);
   }
   
   .footer
   {
     padding: 40px 0;
-    background-color: var(--darkcolorsmooth);
+    background-color: var(--purple);
   }
   .footer .social{
     text-align: center;
