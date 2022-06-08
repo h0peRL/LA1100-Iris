@@ -45,16 +45,16 @@
 
 header{
   grid-area: header;
-  background-color: var(--strongdarkcolor);
+  background-color: var(--darkcolorsmooth);
   display: flex;
-  justify-content: center;    
+  justify-content: center;     
   align-items: center;
 }
 
 .headerLogo
 {
   font-size: 30px;
-  color: var(--textlight);
+  color: var(--backgroundlight);
   text-shadow: 10px 5px 5px black;
   padding: 20px;
   border-radius: 10px;
@@ -92,9 +92,9 @@ nav ul{
   float: right;
 }
 nav ul li{
-  /* float: left; */
+  float: left; 
   list-style: none;
-  /* position: relative; */
+  position: relative; 
 }
 nav ul li a{
   font-family: Verdana;
@@ -170,7 +170,7 @@ main
 
 footer{
   grid-area: footer;
-  background-color: var(--strongcolor);
+  background-color: var(--darkcolorsmooth);
 }
 
 .footer
