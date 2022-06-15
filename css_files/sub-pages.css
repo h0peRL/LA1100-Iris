@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #455837;
+  background-color: #c2d9e4;
   font-family: "Hubballi", cursive;
 }
 
@@ -87,7 +87,7 @@
   content: "";
   width: 10px;
   height: 57%;
-  background: linear-gradient(to right, #045600, #013600);
+  background: linear-gradient(to right, #679db3, #4c738e);
   position: absolute;
   left: -40px;
   top: 8px;
@@ -103,6 +103,18 @@
 .title {
   width: 30rem;
   padding: 1.8rem;
+}
+.buttonNav {
+  font-family: Verdana;
+  color: #ffffff;
+  font-size: 20px;
+  background-color: #171754;
+  margin: 20px;
+  padding: 20px;
+  width: 140px;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px black;
+  text-decoration: none;
 }
 @media only screen and (max-width: 1250px) {
   .container {
