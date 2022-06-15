@@ -148,7 +148,8 @@ main
   color: var(--darkcolor)
 }
 
-.buttonMain{
+.buttonMain
+{
   font-family: Verdana;
   color: var(--textlight);
   font-size: 20px;
@@ -249,13 +250,19 @@ footer{
 
   header
   {
-      align-items: left;
+    align-items: left;
   }
 
   nav
   {
-      align-items: right;
+    align-items: right;
   }
+
+  .buttonMain
+  {
+    width: ;
+  }
+
 }
 
 
