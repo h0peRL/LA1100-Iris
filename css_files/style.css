@@ -249,18 +249,12 @@ footer{
     align-items: right;
   }
 
-  /* .buttonMain
-  {
-    font-family: Verdana;
-    color: var(--textlight);
-    font-size: 20px;
-    width: 90%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    color: #9fb09b;
-    background-color: var(--darkcolor);
-  } */
+  .buttonMain
+    {
+      height: 200px;
+      width: 230px;
+      margin: 20px;
+    }
   
 }
 

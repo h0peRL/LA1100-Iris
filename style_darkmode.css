@@ -139,13 +139,8 @@
     flex-wrap: wrap;
   }
   
-  .testMain
+  .buttonMain
   {
-    padding: 20px;
-    color: var(--darkcolor)
-  }
-  
-  .buttonMain{
     font-family: Verdana;
     color: var(--textlight);
     font-size: 20px;
@@ -246,12 +241,19 @@
   
     header
     {
-        align-items: left;
+      align-items: left;
     }
   
     nav
     {
-        align-items: right;
+      align-items: right;
+    }
+
+    .buttonMain
+    {
+      height: 200px;
+      width: 230px;
+      margin: 20px;
     }
   }
   
